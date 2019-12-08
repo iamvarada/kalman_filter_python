@@ -83,7 +83,7 @@ class BasicKalmanFilter :
         self.last_udpate_step_time_ = self.t_current_
         return K_gain
     
-    def get_lastest_estimated_state(self) : 
+    def get_latest_estimated_state(self) : 
         return self.X_
   
     def get_current_time(self) :
